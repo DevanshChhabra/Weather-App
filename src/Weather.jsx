@@ -4,7 +4,7 @@ import './Weather.css'
 
 const api = {
   key: "0dcfc3b7197b99941a936925d6fe2f38",
-  base: "http://api.openweathermap.org/data/2.5/",
+  base: "https://api.openweathermap.org/data/2.5/",
 };
 const Weather = () => {
   const [query, setQuery] = useState("");
